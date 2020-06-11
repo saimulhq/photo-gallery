@@ -1,0 +1,20 @@
+.Thumbnails {
+  width: 260px;
+  padding: 10px;
+  text-align: center;
+  border: 1px;
+  margin: auto;
+  justify-content: center;
+  margin-top: 70px;
+  box-shadow: 0 2px 3px #ccc;
+}
+
+.Thumbnails button {
+  margin: 10px;
+}
+
+.Thumbnails button:hover,
+.Thumbnails button:active {
+  background-color: #2e3b55;
+  color: white;
+}

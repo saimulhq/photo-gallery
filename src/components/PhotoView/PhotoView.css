@@ -1,0 +1,20 @@
+.PhotoView {
+  max-width: 350px;
+  text-align: center;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.PhotoView button {
+  margin: 16px;
+}
+
+.PhotoView button:hover,
+.PhotoView button:active {
+  background-color: #2e3b55;
+  color: white;
+}
+
+.Media {
+  height: 300px;
+}
