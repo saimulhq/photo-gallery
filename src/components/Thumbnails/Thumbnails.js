@@ -17,6 +17,9 @@ function Thumbnails() {
             .then(response => {
                 const loadedPhotos = response.data;
                 setPhotos(loadedPhotos);
+            })
+            .catch(error => {
+                console.log("Couldn't fetch data from server due to the following error!" + error);
             });
     }, [page]);
 
