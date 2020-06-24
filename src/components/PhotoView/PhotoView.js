@@ -14,6 +14,9 @@ function PhotoView(props) {
             .then(response => {
                 const loadedPhoto = response.data;
                 setPhoto(loadedPhoto);
+            })
+            .catch(error => {
+                console.log("Couldn't fetch data from server due to the following error!" + error);
             });
     }, [photoId]);
 
