@@ -1,5 +1,7 @@
 ## Photo Gallery - A simple photo viewer Application
 
+This project fetches data by making API calls to {JSON} Placeholder (A free fake API for testing and prototyping).  
+
 ## Steps for running the project
 
 In the project directory, run the following command to install all the dependencies:
