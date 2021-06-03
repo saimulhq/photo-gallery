@@ -2,6 +2,8 @@
 
 This project fetches data by making API calls to {JSON} Placeholder (A free fake API for testing and prototyping).  
 
+You can test the deployed version from Github Pages from the link: http://saimulhq.github.io/photo-gallery/
+
 ## Steps for running the project
 
 In the project directory, run the following command to install all the dependencies:

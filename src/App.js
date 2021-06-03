@@ -10,8 +10,8 @@ function App() {
     <div className="App">
       <Header />
       <Switch>
-        <Route path="/photo/:photoId" component={PhotoView} />
-        <Route path="/" exact component={Thumbnails} />
+        <Route path="/photo-gallery/" exact component={Thumbnails} />
+        <Route path="/photo-gallery/photo/:photoId" exact component={PhotoView} />
       </Switch>
     </div>
   );

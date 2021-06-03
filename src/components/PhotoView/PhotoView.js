@@ -21,7 +21,7 @@ function PhotoView(props) {
     }, [photoId]);
 
     const backButtonHandler = () => {
-        props.history.push('/');
+        props.history.push('/photo-gallery');
     }
 
     return (

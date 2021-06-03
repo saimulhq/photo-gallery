@@ -11,7 +11,7 @@ function Header() {
                 style={{ background: '#2E3B55' }}>
                 <Toolbar>
                     <Link
-                        to="/"><strong>Photo Gallery</strong>
+                        to="/photo-gallery"><strong>Photo Gallery</strong>
                     </Link>
                 </Toolbar>
             </AppBar>

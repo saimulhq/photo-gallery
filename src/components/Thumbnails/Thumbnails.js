@@ -54,7 +54,7 @@ function Thumbnails() {
                     <GridListTile
                         key={photo.id}>
                         <Link
-                            to={`/photo/${photo.id}`}>
+                            to={`/photo-gallery/photo/${photo.id}`}>
                             <img
                                 src={photo.thumbnailUrl}
                                 alt={photo.title} />
