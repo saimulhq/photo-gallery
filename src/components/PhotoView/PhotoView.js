@@ -43,7 +43,7 @@ function PhotoView(props) {
                     variant="contained"
                     color="default"
                     onClick={backButtonHandler}
-                    startIcon={<ArrowBackIcon />}>Back</Button>
+                    startIcon={<ArrowBackIcon />}>Back To Home</Button>
             </Card> : <CircularProgress className="Spinner" />}
         </div>
     );
